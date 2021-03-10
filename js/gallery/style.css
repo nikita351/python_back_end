@@ -1,0 +1,33 @@
+#gallery {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallery .photos img {
+    width: 100%;
+    display: none;
+}
+
+#gallery .photos img:first-child {
+    display: block;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.nxt, .bck {
+    border: outset;
+    width: 84px;
+    height: 48px;
+    background: pink;    
+    color: grey;
+    border-radius: 10px;
+    font-weight: bold;
+}
